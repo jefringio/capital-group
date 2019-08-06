@@ -7,10 +7,10 @@ block pageTitle
     title Home Page
 
 block content
-    .container 
-        h2 Some stuff !!
+    include ../../components/topnav/topnavigation.pug
+    include ../../components/jumbotron/herobanner.pug
 
-        include ../../components/accordion/accordion.pug
+   
 
 block pageScripts
     script(src="homepage.js")
