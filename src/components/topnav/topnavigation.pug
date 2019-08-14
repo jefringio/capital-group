@@ -1,10 +1,21 @@
-.topnav
-    .topnav__left
-        a.topnav__a.dropdown-toggle.layers(href='#' data-toggle='dropdown')
-            span.other-site Other sites :
-            span.site-type Individual Investors 
-            span.arrow
-            a.site-type Login 
-            a.site-type  contact
-
-        
+.topnav    
+    nav.navbar.navbar-expand-lg
+        #navbarSupportedContent.collapse.navbar-collapse
+            ul.navbar-nav.mr-auto
+                li.nav-item.dropdown
+                    a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                        |Other sites : Induvidual Investors
+                    .dropdown-menu(aria-labelledby='navbarDropdown')
+                        a.dropdown-item(href='#') Action
+                        a.dropdown-item(href='#') Another action
+                        .dropdown-divider
+                        a.dropdown-item(href='#') Something else here
+        #navbarSupportedContent
+            ul.navbar-nav.mr-auto.left
+                li.nav-item.active
+                    a.nav-link(href='#')
+                        | Contact Us 
+                li.nav-item
+                    a.nav-link(href='#') Preferences
+                li.nav-item
+                    a.nav-link(href='#') Login 

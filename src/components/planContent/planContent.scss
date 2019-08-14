@@ -1,0 +1,60 @@
+.plan{
+    overflow: hidden;
+    padding-bottom: 5%; 
+    &__main-left{
+        padding-left: 10%;
+        padding-right: 0px;
+        
+    }
+   
+    
+   
+    &__innercalc{
+        padding-left: 4%;
+
+        &__col-left{
+            border-right: 1px solid rgb(196, 196, 196);
+            padding-right: 0px;   
+        }
+
+        &__col-right{
+            padding-right: 0px;   
+        }
+        
+        p{
+            padding-top: 10%;
+            font-size: 14px;
+        }
+        a{
+            text-decoration: none;
+        }
+
+    }
+    
+   &__row-end{
+    padding-left: 0px;
+       img{
+        // position: relative;
+        // padding-left: 33px;
+        // left: 349%
+            width: fit-content;
+            padding-top: 2%;
+            padding-left: 60px;
+            
+       }
+   } 
+
+
+    @media (max-width:975px) {
+        &__row-end{
+            img{
+                padding-top: 2%;
+                width: inherit;
+            }
+        }
+        &__main-left{
+            text-align: center;
+        }
+        
+    }
+}

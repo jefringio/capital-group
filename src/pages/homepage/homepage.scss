@@ -1,7 +1,39 @@
 /*!
  * import bootstrap 4
  */
+ body{
+     overflow-x: hidden;
+ }
 
+ @media (min-width:767px){
+    .hideDesk{
+        display: none!important;
+    }
+    .showDesk{
+        display: block!important;
+    }
+}
+
+@media (max-width: 767px){
+    .hideMob{
+        display: none!important;
+    }
+    .showMob{
+        display: block!important;
+    }
+}
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../../components/jumbotron/herobanner.scss";
-@import "../../components/topnav/topnavigation.scss";
+@import "../../components/mainnav/mainnav.scss";
+@import "../../components/breadcrumb/breadcrumb.scss";
+@import "../../components/herobanner/herobanner.scss";
+@import "../../components/stickynav/stickynav.scss";
+@import "../../components/learnContent/learnContent.scss";
+@import "../../components/carousel/carousel.scss";
+@import "../../components/planContent/planContent.scss";
+@import "../../components/chooseContent/chooseContent.scss";
+@import "../../components/savingsContent/savingsContent.scss";
+@import "../../components/bottomArticle/bottomArticle.scss";
+@import "../../components/topfooter/topfooter.scss";
+@import "../../components/middlefooter/middlefooter.scss";
+@import "../../components/bottomfooter/bottomfooter.scss";
+@import "../../components/socialnav/socialnav.scss";

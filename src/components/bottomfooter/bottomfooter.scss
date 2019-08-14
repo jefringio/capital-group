@@ -1,0 +1,39 @@
+.bottomfooter{
+    color:rgb(102, 102, 102);
+    background-color: #e5e5e5;
+    padding-top: 3%;
+    padding-bottom: 4%;
+
+
+    .container{
+        &__col-one-left{
+            font-size: 13px;
+        }
+        &__bottom-col-right{
+            
+            font-size: 14px;
+            list-style: none;
+            font-weight: bold;
+            
+                padding-left: 0px;
+        
+                li{
+                    padding-left: 1%;
+                    padding-right: 1%;
+                    display: inline-block;
+                }
+        
+        }
+        &__bottom-border-right{
+            border-right: .5px solid rgb(151, 151, 151);
+        }
+        &__p-1{
+            padding-left: 0px;
+            padding-bottom: 10%;
+        }
+        &__p-3{
+            padding-bottom: 10%;
+        }
+                    
+    }
+}

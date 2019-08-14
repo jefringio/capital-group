@@ -1,0 +1,50 @@
+.wrapper{
+    .navbar{
+        a{
+            color: black;
+            font-size: 15px;
+            font-weight: 600;
+           
+        }
+        .search{
+            li{
+               // padding-right: 1%;
+                
+            }
+            .active{
+                a{
+                    border-bottom: 2px solid rgb(136, 130, 130);
+                    //width:81px
+                }
+            }
+        }
+        
+        form{
+            .searchform{
+                padding-left: 59%;
+                padding-bottom: 2%;
+                display: flex;
+                list-style: none;
+                
+                input{
+                    border: 0px;
+                    border-radius: 0px;
+                    border-bottom: 0.5px solid black;
+                    font-style:italic;
+                    font-size: 15px;
+                    width: 232px;
+                    height: 25px;   
+                }
+                
+               
+                img{
+                    height: 25px;
+                    
+                }
+              
+            }
+        }
+        
+    }
+    
+}

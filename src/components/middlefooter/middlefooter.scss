@@ -1,0 +1,63 @@
+.middlefoot{
+    background-color: rgb(153, 153, 153);
+    &__contain{
+        
+        font-size: 14px;
+        padding-top: 3%;
+        color: brown;
+        //line-height: 2.5;
+        &__menu{
+            list-style: none;
+            width: 150px;
+            font-weight: bold;
+            li{
+            padding-bottom: 10%;
+            }    
+            a{
+                color: white;
+            }
+        }
+    }
+    .accordion {
+        .card-header{
+          padding: 0!important;
+          background-color: rgb(153, 153, 153);
+          
+          button{
+            color: white;
+            font-size: 14px;
+            text-decoration: none;
+            font-weight: bold;
+          }
+        }
+        .collapse{
+          background-color: rgb(94, 93, 93);
+          ul{
+            li{
+              list-style-type: none;
+              a{
+                color: white;
+                text-decoration: none;
+              }
+            }
+          }
+      
+        }
+          .btn.btn-link{
+              &::before {
+                content: "\25BC ";
+                font-weight: bolder;
+               
+              }
+            }
+      
+            .btn.btn-link.collapsed{
+                &::before{
+                  content: "\25BA ";
+                  font-weight: bolder;
+                  padding-right: 10px;
+                 
+                }
+            }
+      }
+}
