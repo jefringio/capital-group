@@ -1,5 +1,5 @@
 .secondnav{
-
+    margin: auto    
     
     button{
         margin-right: 15px;
@@ -17,7 +17,7 @@
     .items{
         margin-right: 30px;
     }
-    padding: 0;
+    // padding: 0;
     #navbarTogglerDemo01{
         text-align: end;
         justify-content: flex-end;    
@@ -46,7 +46,7 @@
             }
         }
     }
-    @media (max-width:767px){
+    @media (max-width:768px){
         #navbarTogglerDemo01{
             .items{
                 margin: 0;
@@ -58,10 +58,13 @@
         }
     }
 
-    @media (max-width:1024px) and (min-width: 767px){
+    @media (max-width:1024px) and (min-width: 768px){
+        .navbar-nav{
+            max-width:99%;
+        }
         #navbarTogglerDemo01{
             ul{
-                width: 98%;
+                width: 100%;
                 position: absolute;
                 justify-content: space-around;
                 margin: 0;
@@ -80,6 +83,7 @@
 .topnav {
     background-color: black;
     height: 24px;
+    overflow-y: hidden;
     
     .col-lg-4.col-md-4,.left,ul,li,a{
         height: inherit;
@@ -126,8 +130,9 @@
         }
     }
 }
-@media (max-width: 767px){
+@media (max-width: 769px){
     .topnav{
+        margin: 0px;
         li{
             border: 1px solid white;
         }

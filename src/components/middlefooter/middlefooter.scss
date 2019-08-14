@@ -1,63 +1,69 @@
 .middlefoot{
-    background-color: rgb(153, 153, 153);
-    &__contain{
+  background-color: rgb(153, 153, 153);
+  &__contain{
+      width: 95%;
+      font-size: 14px;
+      padding-top: 3%;
+      color: brown;
+      margin: 0px;
+
+      //line-height: 2.5;
+      &__menu{
+          list-style: none;
+          width: 150px;
+          font-weight: bold;
+          // padding: 1px;
+          li{
+          padding-bottom: 10%;
+          }    
+          a{
+              color: white;
+          }
+      }
+  }
+  .accordion {
+      .card-header{
+        padding: 0!important;
+        background-color: rgb(153, 153, 153);
         
-        font-size: 14px;
-        padding-top: 3%;
-        color: brown;
-        //line-height: 2.5;
-        &__menu{
-            list-style: none;
-            width: 150px;
-            font-weight: bold;
-            li{
-            padding-bottom: 10%;
-            }    
+        button{
+          color: white;
+          font-size: 14px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+      }
+      .collapse{
+        background-color: rgb(94, 93, 93);
+        ul{
+          li{
+            list-style-type: none;
             a{
-                color: white;
-            }
-        }
-    }
-    .accordion {
-        .card-header{
-          padding: 0!important;
-          background-color: rgb(153, 153, 153);
-          
-          button{
-            color: white;
-            font-size: 14px;
-            text-decoration: none;
-            font-weight: bold;
-          }
-        }
-        .collapse{
-          background-color: rgb(94, 93, 93);
-          ul{
-            li{
-              list-style-type: none;
-              a{
-                color: white;
-                text-decoration: none;
-              }
+              color: white;
+              text-decoration: none;
             }
           }
-      
         }
-          .btn.btn-link{
-              &::before {
-                content: "\25BC ";
+    
+      }
+        .btn.btn-link{
+            &::before {
+              content: "\25BC ";
+              font-weight: bolder;
+             
+            }
+          }
+    
+          .btn.btn-link.collapsed{
+              &::before{
+                content: "\25BA ";
                 font-weight: bolder;
+                padding-right: 10px;
                
               }
-            }
-      
-            .btn.btn-link.collapsed{
-                &::before{
-                  content: "\25BA ";
-                  font-weight: bolder;
-                  padding-right: 10px;
-                 
-                }
-            }
-      }
+       }
+      }  
+}
+@media(min-width:767px) and (max-width:801px){
+
 }

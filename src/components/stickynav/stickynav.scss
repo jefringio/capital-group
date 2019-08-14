@@ -1,5 +1,8 @@
 .stickynav{
-    overflow-x: hidden;
+    margin: auto;
+    .row{
+        margin: 0px !important;
+    }
     .container{
         padding: 0px;
         max-width: 82%;
@@ -65,5 +68,4 @@
         }
     }
     
-
 }

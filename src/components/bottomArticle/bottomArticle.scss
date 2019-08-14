@@ -8,7 +8,7 @@
 
   .container{
     width: 75%;
-    font: inherit;
+    // font: inherit;
     ol{
       padding-bottom: 10%;
     }
@@ -43,9 +43,38 @@
         display: block;        
       }
       
-    //   &__custom:first-child {
-    //     counter-reset: customlistcounter;
-    //   } 
+      &__custom:first-child {
+        counter-reset: customlistcounter;
+      } 
+  }
+  @media(max-width: 720px){
+    .container{
+      &__custom {
+        list-style-type: none;
+        margin-left: 0;
+        padding: 0px;
+        
+      }
+      
+      &__custom > li {
+        counter-increment: customlistcounter;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 1.33;
+        text-shadow: none;
+        font: inherit;
+        font-weight: normal;
+        display: flex;
+      }
+      &__custom > li:before {
+        content: counter(customlistcounter) " ";
+       font-weight: bold;
+        float: left;
+        width: 25%;
+        display: block;        
+      }
+      
+    }
   }
 }   
       

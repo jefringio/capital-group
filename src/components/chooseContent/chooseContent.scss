@@ -1,10 +1,13 @@
 .choose{
     background-color: #0099e2;
-    // overflow: hidden;
+    overflow: hidden;
+    .lead{
+        padding: 3%;
+    }
     
     //height:100px;
     &__one-col{
-        padding-left: 11%;
+        // padding-left: 11%;
         padding-top: 15%;
         font-size: 24px;
         p{
@@ -45,7 +48,7 @@
        }
        h3{
         padding-bottom: 3%;
-        padding-left: 5%;
+        // padding-left: 5%;
        }
         
     }

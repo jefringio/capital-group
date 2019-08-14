@@ -2,15 +2,16 @@
     overflow: hidden;
     padding-bottom: 5%; 
     &__main-left{
-        padding-left: 10%;
-        padding-right: 0px;
+        // padding-left: 10%;
+        // padding-right: 0px;
         
     }
    
     
    
     &__innercalc{
-        padding-left: 4%;
+         padding: 5%;
+
 
         &__col-left{
             border-right: 1px solid rgb(196, 196, 196);
