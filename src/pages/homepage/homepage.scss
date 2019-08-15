@@ -1,13 +1,6 @@
 /*!
  * import bootstrap 4
  */
-.content{
-    
-    
-    height: 100%;
-    padding: 0px;
-    margin: 0;
- }
 
  @media (min-width:768px){
     
@@ -31,16 +24,16 @@
 }
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../components/secondnav/secondnav.scss";
-// @import "../../components/breadcrumb/breadcrumb.scss";
-// @import "../../components/herobanner/herobanner.scss";
-// @import "../../components/stickynav/stickynav.scss";
-// @import "../../components/learnContent/learnContent.scss";
-// @import "../../components/carousel/carousel.scss";
-// @import "../../components/planContent/planContent.scss";
-// @import "../../components/choose/choose.scss";
-// @import "../../components/savingsContent/savingsContent.scss";
-// @import "../../components/bottomArticle/bottomArticle.scss";
-// @import "../../components/topfooter/topfooter.scss";
-// @import "../../components/middlefooter/middlefooter.scss";
-// @import "../../components/bottomfooter/bottomfooter.scss";
-// @import "../../components/socialnav/socialnav.scss";
+@import "../../components/breadcrumb/breadcrumb.scss";
+@import "../../components/herobanner/herobanner.scss";
+@import "../../components/stickynav/stickynav.scss";
+@import "../../components/learnContent/learnContent.scss";
+@import "../../components/carousel/carousel.scss";
+@import "../../components/planContent/planContent.scss";
+@import "../../components/choose/choose.scss";
+@import "../../components/savingsContent/savingsContent.scss";
+@import "../../components/bottomArticle/bottomArticle.scss";
+@import "../../components/topfooter/topfooter.scss";
+@import "../../components/middlefooter/middlefooter.scss";
+@import "../../components/bottomfooter/bottomfooter.scss";
+@import "../../components/socialnav/socialnav.scss";
