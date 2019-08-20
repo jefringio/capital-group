@@ -1,15 +1,8 @@
 .stickynav{
     margin: auto;
-    .row{
-        margin: 0px !important;
-    }
     .container{
         padding: 0px;
         max-width: 82%;
-        a{
-            font-family: Avenir Next LT W01 Demi,Arial,sans-serif;
-        } 
-        
     }
 
 
@@ -47,21 +40,21 @@
     
         &__sn-one{
             height:0px; 
-            .p1{
+            &__p1{
                 display: none;
                 margin-top: -12px;
             }
         }
         &__sn-two{
             height: 0px;
-            .p2{
+            &__p2{
                 display: none;
                 margin-top: -12px;
             }
         }
         &__sn-three{
             height: 0px;
-            .p3{
+            &__p3{
                 display: none;
                 margin-top: -12px;
             }

@@ -1,15 +1,31 @@
 .learn{
     //background-color: aqua;
     padding-top: 2%;
-    text-align: center;
-    margin: auto;
-    &__title{
-        font-weight: bold;
+    padding-left: 12%;
+    .row{
+        margin: 0;
     }
-    .container{
+
+    
+    &__content{
         //width: 47%;
         padding-bottom: 3%;
         padding-top: 2%;
+        
+        &__title{
+            font-weight: bold;
+            color: #7f7f7f;
+            padding-bottom: 1%;
+        }
+
+        &__h2{
+            padding-bottom: 2%;
+        }
     }
     
+}
+@media(max-width:1024px){
+    .learn{
+        padding: 5%;
+    }
 }

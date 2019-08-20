@@ -1,50 +1,50 @@
 .slider{
     
-    .carousel-indicators 
-    {
+    
+    &__ol {
         position: relative;
-        li{
+        // display: inline-block;
+        &__li{
             text-indent:0;
             width:200px;
             height: 40px;
             background-color: transparent;
             display: inline-block;
 
-            a{
+            &__a{
                 color: black;
                 font-size:1.33rem;
                 text-decoration: none;
             }
-            a:hover{
+            &__a:hover{
                 border-bottom: 4px solid #b42573;
             }
 
         }
-        .active{
-            a{
-                font-weight: bold;
-                border-bottom: 4px solid #b42573;
-            }
-        }
-    }
+        
+    }    
+   
     .carousel-inner{
         width: 88%;
-        .tittle-mob{
-            display: none;
-        }
-        .tittle-desk{
-            padding-bottom: 5%;
-        }
-        article{
-            float: right;
-            padding-bottom: 5%;
-        }
-        a{
-            text-decoration: none;
-            color: #0b72bb;
-            font-size: 24px;
-        }
+        padding-left: 10%;
     }
+    &__tittle-mob{
+        display: none;
+    }
+    &__tittle-desk{
+        padding-bottom: 5%;
+    }
+    &__article{
+        float: right;
+        padding-bottom: 5%;
+    }
+    &__a{
+        text-decoration: none;
+        color: #0b72bb;
+        font-size: 24px;
+    }
+}
+    
     @media (max-width: 1024px) {
         .carousel .carousel-item {
           display: contents;
@@ -52,30 +52,32 @@
           text-align: center;
         }
     
-        .carousel-indicators {
-            display: none;
+        .slider{
 
-          }
+            &__ol{
+               display: none;
+
+             }
+        
     
-        .carousel-inner{
-            article{
-                padding-left:20%; 
+        
+            &__article{
+                padding:20%; 
             }
-            .tittle-mob{
+            &__tittle-mob{
                 display: block;
                 padding-bottom: 5%;
-                padding-left: 20%
+                padding-left: 5%
             }
-            .tittle-desk{
+            &__tittle-desk{
                 display: none;
             }
-            img {
+            &__image {
               display: block;
               max-width: 500px;
               margin: 0 auto !important;
-              padding-left:20%; 
+              padding-left:5%; 
             
             }
         }
-}
 }

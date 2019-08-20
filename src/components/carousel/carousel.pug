@@ -2,24 +2,28 @@
     .bd-example(itemscope)
         #carouselExampleCaptions.carousel.slide(data-ride='carousel')   
             .indicators
-                ol.carousel-indicators
-                    li.active
-                        a(data-target='#carouselExampleCaptions', data-slide-to='0') New Parents
-                    li
-                        a(data-target='#carouselExampleCaptions', data-slide-to='1')  Growing family
-                    li
-                        a(data-target='#carouselExampleCaptions', data-slide-to='2')  Up next, college
-                    li
-                        a(data-target='#carouselExampleCaptions', data-slide-to='3')  On campus
-                    li
-                        a(data-target='#carouselExampleCaptions', data-slide-to='4')  Grandparents
+                ol.slider__ol.text-center
+                    li.slider__ol__li.active
+                        a.slider__ol__li__a(data-target='#carouselExampleCaptions', data-slide-to='0') New Parents
+
+                    li.slider__ol__li
+                        a.slider__ol__li__a(data-target='#carouselExampleCaptions', data-slide-to='1')  Growing family
+
+                    li.slider__ol__li
+                        a.slider__ol__li__a(data-target='#carouselExampleCaptions', data-slide-to='2')  Up next, college
+
+                    li.slider__ol__li
+                        a.slider__ol__li__a(data-target='#carouselExampleCaptions', data-slide-to='3')  On campus
+
+                    li.slider__ol__li
+                        a.slider__ol__li__a(data-target='#carouselExampleCaptions', data-slide-to='4')  Grandparents
 
             .carousel-inner
                 .carousel-item.active.py-5
-                    h1.tittle-mob New parents
-                    img.col-5(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/Expectant-mother-and-father-illustration-small-green.png' alt='New Parents')
-                    article.col-lg-6
-                        h1.tittle-desk
+                    h1.slider__tittle-mob New parents
+                    img.slider__image.col-5(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/Expectant-mother-and-father-illustration-small-green.png' alt='New Parents')
+                    article.col-lg-6.slider__article
+                        h1.slider__tittle-desk
                             b
                                 | New parents
                         p.lead You’re dealing with diapers, drool and midnight feedings. Now you're supposed to think about saving for college? We make it easy.
@@ -29,13 +33,13 @@
                         h4
                             b
     
-                                a(href="#") Learn more &#8594
+                                a.slider__a(href="#") Learn more &#8594
 
                 .carousel-item.py-5
-                    h1.tittle-mob Growing family
-                    img.col-5(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/family-expecting-second-child-graphic-1.png' alt='Growing family')
-                    article.col-lg-6
-                        h1.tittle-desk Growing family
+                    h1.slider__tittle-mob Growing family
+                    img.slider__image.col-5(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/family-expecting-second-child-graphic-1.png' alt='Growing family')
+                    article.col-lg-6.slider__article
+                        h1.slider__tittle-desk Growing family
                         p.lead Now that you have more than one child, it feels like it's time to get serious about saving for their future.
                             b
                                 .sub Kickstart a new savings plan.
@@ -43,12 +47,12 @@
                         h4
                             b
     
-                                a(href="#") Learn more &#8594
+                                a.slider__a(href="#") Learn more &#8594
                 .carousel-item.py-5
-                    h1.tittle-mob Up next, college
-                    img.col-5(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/starting-college-graphic-3.png' alt='Up next, college')
-                    article.col-lg-6
-                        h1.tittle-desk Up next, college
+                    h1.slider__tittle-mob Up next, college
+                    img.slider__image.col-5(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/starting-college-graphic-3.png' alt='Up next, college')
+                    article.col-lg-6.slider__article
+                        h1.slider__tittle-desk Up next, college
                         p.lead Your child is starting to apply to colleges, and reality is setting in: There’s a gap between what you have and what it costs.
                             b
                              .sub Let’s figure out a plan.
@@ -56,13 +60,13 @@
                         h4
                             b
     
-                                a(href="#") Learn more &#8594
+                                a.slider__a(href="#") Learn more &#8594
 
                 .carousel-item.py-5
-                    h1.tittle-mob On campus
-                    img.col-5(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/students-on-college-campus-graphic.png' alt='On campus')
-                    article.col-lg-6
-                        h1.tittle-desk On campus
+                    h1.slider__tittle-mob On campus
+                    img.slider__image.col-5(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/students-on-college-campus-graphic.png' alt='On campus')
+                    article.col-lg-6.slider__article
+                        h1.slider__tittle-desk On campus
                         p.lead With your child on campus, you need to stretch your money now and tackle how to handle the debt that’s coming later.
                             b
                                 .sub Let’s plan the next step.
@@ -70,12 +74,12 @@
                         h4
                             b
     
-                                a(href="#") Learn more &#8594
+                                a.slider__a(href="#") Learn more &#8594
                 .carousel-item.py-5
-                    h1.tittle-mob Grandparents
-                    img.col-5(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/grandparents-spending-time-with-grandchildren-closeup-graphic.png' alt='Grandparents')
-                    article.col-lg-6
-                        h1.tittle-desk Grandparents
+                    h1.slider__tittle-mob Grandparents
+                    img.slider__image.col-5(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/grandparents-spending-time-with-grandchildren-closeup-graphic.png' alt='Grandparents')
+                    article.col-lg-6.slider__article
+                        h1.slider__tittle-desk Grandparents
                         p.lead You adore your grandchildren and want to show it by helping with the costs of college. Best grandparents ever!
                             b
                                 .sub Here’s how to contribute.
@@ -84,4 +88,4 @@
                         h4
                             b
     
-                                a(href="#") Learn more &#8594
+                                a.slider__a(href="#") Learn more &#8594

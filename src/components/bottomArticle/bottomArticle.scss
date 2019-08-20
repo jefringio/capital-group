@@ -2,14 +2,17 @@
   background:rgb(242, 242, 242); 
   padding-bottom: 10px;
   padding-top: 3%;
-  &__sec-content{
-    padding-top: 3%;
-  }
+
+    &__sec-content{
+      padding-top: 3%;
+    }
 
   .container{
+
     width: 75%;
     // font: inherit;
-    ol{
+  }
+    &__li{
       padding-bottom: 10%;
     }
     hr{
@@ -17,14 +20,14 @@
     }
     
    
-    &__custom {
+    &__ol {
         list-style-type: none;
         margin-left: 0;
         padding: 0px;
         
       }
       
-      &__custom > li {
+      &__ol > li {
         counter-increment: customlistcounter;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -35,7 +38,7 @@
         display: flex;
       }
       
-      &__custom > li:before {
+      &__ol > li:before {
         content: counter(customlistcounter) " ";
        font-weight: bold;
         float: left;
@@ -43,20 +46,20 @@
         display: block;        
       }
       
-      &__custom:first-child {
+      &__ol:first-child {
         counter-reset: customlistcounter;
       } 
-  }
+  
   @media(max-width: 720px){
-    .container{
-      &__custom {
+    .bottomContent{
+      &__ol {
         list-style-type: none;
         margin-left: 0;
         padding: 0px;
         
       }
       
-      &__custom > li {
+      &__ol > li {
         counter-increment: customlistcounter;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -66,7 +69,7 @@
         font-weight: normal;
         display: flex;
       }
-      &__custom > li:before {
+      &__ol > li:before {
         content: counter(customlistcounter) " ";
        font-weight: bold;
         float: left;

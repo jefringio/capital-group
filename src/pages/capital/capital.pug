@@ -1,0 +1,34 @@
+extends ../../layouts/defaultLayout.pug
+
+block pageStyles
+    link(rel="stylesheet", href="capital.css")
+
+
+block pageTitle
+    title Capital Page
+
+block content
+    .content
+        header
+            include ../../components/secondnav/secondnav.pug
+            include ../../components/breadcrumb/breadcrumb.pug
+        section
+            include ../../components/herobanner/herobanner.pug
+            include ../../components/stickynav/stickynav.pug
+            include ../../components/learnContent/learnContent.pug
+            include ../../components/carousel/carousel.pug
+            include ../../components/planContent/planContent.pug
+            include ../../components/choose/choose.pug
+            include ../../components/savingsContent/savingsContent.pug
+            include ../../components/bottomArticle/bottomArticle.pug
+        footer
+            include ../../components/topfooter/topfooter.pug
+            include ../../components/middlefooter/middlefooter.pug
+            include ../../components/bottomfooter/bottomfooter.pug
+        nav
+            include ../../components/socialnav/socialnav.pug
+
+block pageScripts
+    script(src="capital.js")
+
+

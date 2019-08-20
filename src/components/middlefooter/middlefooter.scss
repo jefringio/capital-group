@@ -64,6 +64,23 @@
        }
       }  
 }
-@media(min-width:767px) and (max-width:801px){
+@media (min-width:769px){
+    
+  .hideDesk{
+      display: none!important;
+  }
+  .showDesk{
+      display: block!important;
+  }
+}
 
+@media (max-width: 768px){
+  
+  
+  .hideMob{
+      display: none!important;
+  }
+  .showMob{
+      display: block!important;
+  }
 }

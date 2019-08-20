@@ -1,33 +1,36 @@
 .socialnav{
-    ul{
+    &__ul{
         padding: 0;
         position: fixed;
         bottom: 110px;
         left: 15px;
         margin: 0;
         
-    }
     
-    li{
-        list-style-type: none;
-        img{
-            opacity: .7;
-        }
-        a{
-            font-size: 0px;
+    
+        &__li{
+            list-style-type: none;
+            &__image{
+                opacity: .7;
+            }
+            &__a{
+                font-size: 0px;
+            }
         }
     }
     @media (max-width: 1088px){
-        ul{
+        &__ul{
             bottom: 0;
             left: 0;
-            li{
+            &__li{
                 display: inline-block;
-            }
-            img{
-                width: 40px!important;
-                height: 40px!important;
+            
+                &__image{
+                    width: 40px!important;
+                    height: 40px!important;
+                }
             }
         }
+
     }
 }

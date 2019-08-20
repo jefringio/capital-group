@@ -1,26 +1,33 @@
 .savings{
     text-align: center;
-    padding: 7%;
+    padding-bottom: 4%;
+    padding-top: 6%;
+
+    .container{
+        width: 67%;
+    }
 
     &__heading{
        // font-family: "AvenirNextLTCom-Demi";
         font-weight: bold;
         line-height: 1.371;
-        padding-bottom: 4%;
+        padding-bottom: 2%;
         font-size: 38px
     }
     .lead{
-        line-height: 1.7;
+        line-height: 1.8;
         box-sizing: border-box; 
-        padding-bottom: 5%; 
+        padding-bottom: 3%; 
         font-size: 20px;
     }
     &__link{
         font-weight: bold;
         border: 1px solid black;
         color: inherit;
-        width: auto;
+        width:fit-content;
         text-decoration: none;
+        border-radius: 5px;
+        padding: 6px;
     }
 
 

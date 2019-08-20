@@ -1,18 +1,21 @@
 .plan{
     overflow: hidden;
-    padding-bottom: 5%; 
+    padding-bottom: 5%;
+   // font-size: 20px; 
+    
+
     &__main-left{
-        // padding-left: 10%;
-        // padding-right: 0px;
-        
+        padding-left: 10%;
+        // padding-right: 0px;   
     }
    
-    
-   
     &__innercalc{
-         padding: 5%;
+        // padding: 5%;
 
-
+        &__calculator{
+            width:80px;
+            height: 70px;
+        }
         &__col-left{
             border-right: 1px solid rgb(196, 196, 196);
             padding-right: 0px;   
@@ -22,19 +25,21 @@
             padding-right: 0px;   
         }
         
-        p{
+        &__p{
             padding-top: 10%;
-            font-size: 14px;
+            font-size: 15px;
         }
-        a{
+        &__a{
             text-decoration: none;
+            font-size: 17px;
+
         }
 
     }
     
    &__row-end{
     padding-left: 0px;
-       img{
+       &__image{
         // position: relative;
         // padding-left: 33px;
         // left: 349%
@@ -48,7 +53,7 @@
 
     @media (max-width:975px) {
         &__row-end{
-            img{
+            &__image{
                 padding-top: 2%;
                 width: inherit;
             }

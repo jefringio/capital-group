@@ -1,27 +1,7 @@
-/*!
- * import bootstrap 4
- */
+/*import bootstrap*/
 
-//  @media (min-width:768px){
-    
-//     .hideDesk{
-//         display: none!important;
-//     }
-//     .showDesk{
-//         display: block!important;
-//     }
-// }
 
-// @media (max-width: 768px){
-    
-    
-//     .hideMob{
-//         display: none!important;
-//     }
-//     .showMob{
-//         display: block!important;
-//     }
-// }
+
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../components/secondnav/secondnav.scss";
 @import "../../components/breadcrumb/breadcrumb.scss";
