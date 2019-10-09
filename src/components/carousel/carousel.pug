@@ -1,23 +1,18 @@
 .slider
     .bd-example(itemscope)
-        #carouselExampleCaptions.carousel.slide(data-ride='carousel')   
-            .indicators
-                ol.slider__ol.text-center
-                    li.slider__ol__li.active
-                        a.slider__ol__li__a(data-target='#carouselExampleCaptions', data-slide-to='0') New Parents
-
-                    li.slider__ol__li
-                        a.slider__ol__li__a(data-target='#carouselExampleCaptions', data-slide-to='1')  Growing family
-
-                    li.slider__ol__li
-                        a.slider__ol__li__a(data-target='#carouselExampleCaptions', data-slide-to='2')  Up next, college
-
-                    li.slider__ol__li
-                        a.slider__ol__li__a(data-target='#carouselExampleCaptions', data-slide-to='3')  On campus
-
-                    li.slider__ol__li
-                        a.slider__ol__li__a(data-target='#carouselExampleCaptions', data-slide-to='4')  Grandparents
-
+        #carouselExampleCaptions.carousel.slide(data-ride='carousel')
+            .slider__indicators
+                ol.carousel-indicators.slider__ol.slider__indi-ol
+                    li.slider__li.active(data-target='#carouselExampleCaptions', data-slide-to='0') 
+                        a(href="#") New Parents
+                    li.slider__li(data-target='#carouselExampleCaptions', data-slide-to='1')  
+                        a(href="#") Growing family
+                    li.slider__li(data-target='#carouselExampleCaptions', data-slide-to='2')  
+                        a(href="#") Up next, college
+                    li.slider__li(data-target='#carouselExampleCaptions', data-slide-to='3')  
+                        a(href="#") On campus
+                    li.slider__li(data-target='#carouselExampleCaptions', data-slide-to='4')  
+                        a(href="#") Grandparents
             .carousel-inner
                 .carousel-item.active.py-5
                     h1.slider__tittle-mob New parents

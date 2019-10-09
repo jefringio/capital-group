@@ -4,15 +4,17 @@
     padding-top: 6%;
 
     .container{
-        width: 67%;
+        width: 100%;
+        padding: 0px 30px;
     }
+    
 
     &__heading{
        // font-family: "AvenirNextLTCom-Demi";
         font-weight: bold;
         line-height: 1.371;
         padding-bottom: 2%;
-        font-size: 38px
+        font-size: 38px;
     }
     .lead{
         line-height: 1.8;
@@ -30,5 +32,17 @@
         padding: 6px;
     }
 
+    @media (max-width:768px){
 
+        &__heading{
+            font-size: 22px;
+            padding: 0px 0px;
+        }
+        .lead{
+            line-height: 1.8;
+            box-sizing: border-box; 
+            padding: 10%; 
+            font-size: 18px;
+        }
+    }
 }
